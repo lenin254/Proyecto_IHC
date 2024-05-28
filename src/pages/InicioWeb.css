@@ -1,7 +1,7 @@
 /* src/pages/InicioWeb.css */
 .inicio-container {
   text-align: center;
-  background-color: #e0f7fa;
+  background-color: #D6FFFF;
   height: 95vh; 
   width: 97vw;
   display: flex;
@@ -59,7 +59,7 @@
   color: #454545;
   width: 100%;
   padding: 10px;
-  background-color: #e0f7fa;
+  background-color: #D6FFFF;
 }
 
 .footer-link {

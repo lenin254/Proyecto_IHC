@@ -1,203 +1,36 @@
-.registrar-usuario-web .image-18 {
-  background: url('/assets/images/Image20.png') 50% / cover no-repeat;
-  position: absolute;
-  left: 250px;
-  top: 3px;
-  width: 235px;
-  height: 188px;
-}
-.registrar-usuario-web .image-10 {
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  background: url('/assets/images/Image10.png') 50% / cover no-repeat;
-  margin: 0 11.1px 766.5px 11.1px;
-  align-self: flex-start;
-  width: 50px;
-  height: 50px;
-}
-.registrar-usuario-web .conocenos {
-  overflow-wrap: break-word;
-  font-family: 'Inter';
-  font-weight: 600;
-  font-size: 24px;
-  letter-spacing: -0.2px;
-  line-height: 1.5;
-  color: rgba(0, 0, 0, 0.5);
-}
-.registrar-usuario-web .container-1 {
-  margin: 31px 51.4px 16.5px 0;
+/* src/pages/RegistrarUsuarioWeb.css */
+
+.registrar-usuario-web {
+  background: #D6FFFF;
+  font-family: 'MONTSERRAT', sans-serif;
   display: flex;
-  flex-direction: column;
+  width: 100vw; /* Asegura que ocupe todo el ancho de la ventana */
+  height: 100vh; /* Asegura que ocupe toda la altura de la ventana */
   box-sizing: border-box;
 }
-.registrar-usuario-web .educational-virtual-assistant {
-  position: relative;
-  margin-bottom: 64.5px;
-  display: inline-block;
-  overflow-wrap: break-word;
-  font-family: 'Inter';
-  font-weight: 600;
-  font-size: 24px;
-  letter-spacing: -0.2px;
-  line-height: 1.5;
-  color: #000000;
-}
-.registrar-usuario-web .crea-una-cuenta {
-  margin-bottom: 2px;
-  display: inline-block;
-  overflow-wrap: break-word;
-  font-family: 'Inter';
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 1.5;
-  color: #000000;
-}
-.registrar-usuario-web .ingrese-su-correo-electrnico-para-registrarse-en-esta-aplicacin {
-  text-align: center;
-  overflow-wrap: break-word;
-  font-family: 'Inter';
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.5;
-  color: #000000;
-}
-.registrar-usuario-web .copy {
-  margin-bottom: 24px;
+
+.registrar-usuario-web .container {
+  background: #395959;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  width: fit-content;
+  width: 50%; /* Ajusta el ancho al 50% para que ocupe la mitad derecha de la pantalla */
+  height: 100vh; /* Asegura que ocupe toda la altura de la pantalla */
   box-sizing: border-box;
 }
-.registrar-usuario-web .label {
-  overflow-wrap: break-word;
-  font-family: 'Inter';
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.4;
-  color: #828282;
-}
-.registrar-usuario-web .field {
-  border-radius: 8px;
-  border: 1px solid #E0E0E0;
-  background: #FFFFFF;
-  margin-bottom: 16px;
-  padding: 9px 15px;
-  width: fit-content;
-  box-sizing: border-box;
-}
-.registrar-usuario-web .crear-con-email {
-  overflow-wrap: break-word;
-  font-family: 'Inter';
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.4;
-  color: #FFFFFF;
-}
-.registrar-usuario-web .button {
-  border-radius: 8px;
-  background: #000000;
-  display: flex;
-  padding: 10px 0.2px 10px 0;
-  width: 327px;
-  box-sizing: border-box;
-}
-.registrar-usuario-web .input-and-button {
-  margin-bottom: 24px;
+
+.registrar-usuario-web .container-2 {
+  background: #D6FFFF;
   display: flex;
   flex-direction: column;
-  width: fit-content;
-  box-sizing: border-box;
-}
-.registrar-usuario-web .divider-1 {
-  background: #E6E6E6;
-  margin: 9.5px 0;
-  width: 104px;
-  height: 1px;
-}
-.registrar-usuario-web .ocontinuar-con {
-  overflow-wrap: break-word;
-  font-family: 'Inter';
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.4;
-  color: #828282;
-}
-.registrar-usuario-web .divider-2 {
-  background: #E6E6E6;
-  margin: 9.5px 0;
-  width: 104px;
-  height: 1px;
-}
-.registrar-usuario-web .divider {
-  margin-bottom: 24px;
-  display: flex;
-  flex-direction: row;
-  column-gap: 8.1px;
-  width: fit-content;
-  box-sizing: border-box;
-}
-.registrar-usuario-web .google {
-  margin-right: 8px;
-  width: 20px;
-  height: 20px;
-}
-.registrar-usuario-web .google-1 {
-  overflow-wrap: break-word;
-  font-family: 'Inter';
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.4;
-  color: #000000;
-}
-.registrar-usuario-web .button-1 {
-  border-radius: 8px;
-  background: #EEEEEE;
-  margin-bottom: 24px;
-  display: flex;
-  flex-direction: row;
-  padding: 10px 0;
-  width: 327px;
-  box-sizing: border-box;
-}
-.registrar-usuario-web .al-hacer-clic-en-continuar-acepta-nuestros-trminos-de-servicio-ypoltica-de-privacidad {
-  margin: 0 21.2px;
-  text-align: center;
-  overflow-wrap: break-word;
-  font-family: 'Inter';
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 1.5;
-  color: #828282;
-}
-.al-hacer-clic-en-continuar-acepta-nuestros-trminos-de-servicio-ypoltica-de-privacidad-sub10 {
-  font-family: 'Inter';
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 1.333;
-  color: #000000;
-}
-.al-hacer-clic-en-continuar-acepta-nuestros-trminos-de-servicio-ypoltica-de-privacidad {
-  font-family: 'Inter';
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 1.333;
-  color: #000000;
-}
-.registrar-usuario-web .content {
-  margin: 0 1.5px 0 0.5px;
-  display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  width: fit-content;
+  width: 50%; /* Ajusta el ancho al 50% para que ocupe la mitad izquierda de la pantalla */
+  height: 100vh; /* Asegura que ocupe toda la altura de la pantalla */
   box-sizing: border-box;
 }
-.registrar-usuario-web .container-3 {
-  margin: 149.5px 222.5px 275px 0;
-  display: flex;
-  flex-direction: column;
-  width: 329px;
-  box-sizing: border-box;
-}
+
 .registrar-usuario-web .educational-virtual-assistant-eva-10 {
   overflow-wrap: break-word;
   font-family: 'Inter';
@@ -206,53 +39,18 @@
   letter-spacing: -0.2px;
   line-height: 1.5;
   color: rgba(0, 0, 0, 0.5);
+  position: absolute; /* Posicionamiento absoluto */
+  bottom: 20px; /* Ajusta según sea necesario */
+  right: 20px; /* Ajusta según sea necesario */
 }
-.registrar-usuario-web .container {
-  background: #395959;
-  position: relative;
-  display: flex;
-  padding: 855.5px 30.2px 8.5px 30.2px;
-  width: 734px;
-  box-sizing: border-box;
-}
-.registrar-usuario-web .container-2 {
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  box-sizing: border-box;
-}
-.registrar-usuario-web .image-12 {
-  background: url('/assets/images/Image19.png') 50% / cover no-repeat;
-  position: absolute;
-  right: -29px;
-  bottom: 138px;
-  width: 284px;
-  height: 270px;
-}
-.registrar-usuario-web .hola-quieres-crear-una-cuenta-es-muy-fcil-solo-ingresa-tu-direccin-de-correo-electrnico-yluego-haz-clic-en-crear-con-email-te-enviaremos-un-correo-electrnico-con-los-detalles-de-tu-nueva-cuenta-incluida-tu-contrasea-prefieres-entrar-con-google-sin-problema-simplemente-haz-clic-en-google-yestars-listo-para-empezar-espero-que-disfrutes-de-tu-experiencia-en-nuestra-plataforma {
-  overflow-wrap: break-word;
-  font-family: 'Inter';
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.5;
-  color: #FFFFFF;
-}
-.registrar-usuario-web .frame-2610368 {
-  border-radius: 16px 16px 0 16px;
-  background: #000000;
-  position: absolute;
-  top: 236px;
-  right: 181px;
-  display: flex;
-  padding: 12px 28.5px 12px 16px;
-  box-sizing: border-box;
-}
-.registrar-usuario-web {
-  background: #D6FFFF;
-  display: flex;
-  padding-left: 21.9px;
-  width: 1489px;
-  box-sizing: border-box;
+
+.registrar-usuario-web .image-10 {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  background: url('/assets/images/Image10.png') 50% / cover no-repeat;
+  margin: 0 0.1px 779.5px 20px;
+  align-self: flex-start;
+  width: 50px;
+  height: 50px;
 }
 
 .registrar-usuario-web .button1 {
@@ -263,4 +61,72 @@
   border-radius: 10px;
   cursor: pointer;
   font-size: 16px;
+}
+
+.registrar-usuario-web .logo {
+  display: block;
+  margin: auto;
+  width: 100px;
+}
+
+
+
+
+.registrar-usuario-web .message-box {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 600px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.registrar-usuario-web .login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute; /* Posiciona el elemento de forma absoluta respecto a su contenedor más cercano con posición relativa */
+  top: 30%; /* Posiciona el elemento en la mitad de la altura del contenedor */
+}
+
+.registrar-usuario-web .input-field {
+  width: 300px;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+
+.registrar-usuario-web .login-button,
+.registrar-usuario-web .register-button {
+  width: 300px;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.registrar-usuario-web .login-button {
+  background-color: #000;
+  color: #fff;
+}
+
+.registrar-usuario-web .register-button {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.registrar-usuario-web .header {
+  align-items: center;
+  position: absolute; 
+  top: 100px; 
+  left: 26%;
+  transform: translateX(-50%);
+  margin-top: 20px;
+  color: #000;
 }

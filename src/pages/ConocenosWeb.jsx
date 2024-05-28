@@ -5,7 +5,7 @@ export default function ConocenosWeb() {
   const navigate = useNavigate();
 
   const handleregresarClick = () => {
-    navigate('/');
+    navigate(-1);
   }
 
   return (
