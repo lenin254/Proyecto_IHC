@@ -1,0 +1,277 @@
+.autenticar-usuario-web .image-18 {
+  background: url('/assets/images/Image20.png') 50% / cover no-repeat;
+  position: absolute;
+  left: 241px;
+  top: 6px;
+  width: 235px;
+  height: 188px;
+}
+.autenticar-usuario-web .image-19 {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  background: url('/assets/images/Image10.png') 50% / cover no-repeat;
+  margin: 0 0.1px 779.5px 0.1px;
+  align-self: flex-start;
+  width: 50px;
+  height: 50px;
+}
+.autenticar-usuario-web .conocenos {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 24px;
+  letter-spacing: -0.2px;
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 0.5);
+}
+.autenticar-usuario-web .container-3 {
+  margin: 17px 40.4px 17.5px 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.autenticar-usuario-web .educational-virtual-assistant {
+  position: relative;
+  margin-bottom: 42.5px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 24px;
+  letter-spacing: -0.2px;
+  line-height: 1.5;
+  color: #000000;
+}
+.autenticar-usuario-web .autenticacin-de-usuario {
+  margin: 0 10.5px 2px 10.5px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #000000;
+}
+.autenticar-usuario-web .ingrese-su-correo-electrnico-para-autenticarse-en-esta-aplicacin {
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #000000;
+}
+.autenticar-usuario-web .copy {
+  margin-bottom: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.autenticar-usuario-web .label {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #828282;
+}
+.autenticar-usuario-web .field {
+  border-radius: 8px;
+  border: 1px solid #E0E0E0;
+  background: #FFFFFF;
+  margin-bottom: 16px;
+  padding: 9px 15px;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.autenticar-usuario-web .label-1 {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #828282;
+}
+.autenticar-usuario-web .field-1 {
+  border-radius: 8px;
+  border: 1px solid #E0E0E0;
+  background: #FFFFFF;
+  margin-bottom: 16px;
+  padding: 9px 15px;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.autenticar-usuario-web .autenticar-con-email {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #FFFFFF;
+}
+.autenticar-usuario-web .button {
+  border-radius: 8px;
+  background: #000000;
+  display: flex;
+  padding: 10px 0 10px 0px;
+  width: 327px;
+  box-sizing: border-box;
+}
+.autenticar-usuario-web .input-and-button {
+  margin-bottom: 24px;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.autenticar-usuario-web .divider-1 {
+  background: #E6E6E6;
+  margin: 9.5px 0;
+  width: 104px;
+  height: 1px;
+}
+.autenticar-usuario-web .ocontinuar-con {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #828282;
+}
+.autenticar-usuario-web .divider-2 {
+  background: #E6E6E6;
+  margin: 9.5px 0;
+  width: 104px;
+  height: 1px;
+}
+.autenticar-usuario-web .divider {
+  margin-bottom: 24px;
+  display: flex;
+  flex-direction: row;
+  column-gap: 8.1px;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.autenticar-usuario-web .google {
+  margin-right: 8px;
+  width: 20px;
+  height: 20px;
+}
+.autenticar-usuario-web .google-1 {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #000000;
+}
+.autenticar-usuario-web .button-1 {
+  border-radius: 8px;
+  background: #EEEEEE;
+  margin-bottom: 24px;
+  display: flex;
+  flex-direction: row;
+  padding: 10px 0;
+  width: 327px;
+  box-sizing: border-box;
+}
+.autenticar-usuario-web .crear-una-cuenta {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #000000;
+}
+.autenticar-usuario-web .button-2 {
+  border-radius: 8px;
+  background: #EEEEEE;
+  display: flex;
+  padding: 10px 0 10px 0.1px;
+  width: 327px;
+  box-sizing: border-box;
+}
+.autenticar-usuario-web .content {
+  margin: 0 1px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.autenticar-usuario-web .container-2 {
+  margin: 149.5px 222.5px 253px 0;
+  display: flex;
+  flex-direction: column;
+  width: 329px;
+  box-sizing: border-box;
+}
+.autenticar-usuario-web .educational-virtual-assistant-eva-10 {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 24px;
+  letter-spacing: -0.2px;
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 0.5);
+}
+.autenticar-usuario-web .container {
+  background: #395959;
+  position: relative;
+  display: flex;
+  padding: 855.5px 30.2px 8.5px 30.2px;
+  width: 734px;
+  box-sizing: border-box;
+}
+.autenticar-usuario-web .container-1 {
+  position: relative;
+  display: flex;
+  
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.autenticar-usuario-web .image-12 {
+  background: url('/assets/images/Image19.png') 50% / cover no-repeat;
+  position: absolute;
+  right: -29px;
+  bottom: 138px;
+  width: 284px;
+  height: 270px;
+}
+.autenticar-usuario-web .hola-de-nuevo-soy-eva-tu-asistente-virtual-educativo-necesitas-ayuda-para-iniciar-sesin-no-te-preocupes-estoy-aqu-para-ayudarte-en-cada-paso-del-camino-por-favor-introduce-tu-correo-ycontrasea-en-los-campos-correspondientes-yluego-haz-clic-en-autenticar-con-email-opor-google-si-an-no-tienes-una-cuenta-puedes-crear-una-haciendo-clic-en-crear-una-cuenta-yseguir-los-sencillos-pasos-estoy-aqu-para-hacer-que-tu-experiencia-sea-lo-ms-fluida-posible {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #FFFFFF;
+}
+.autenticar-usuario-web .frame-2610368 {
+  border-radius: 16px 16px 0 16px;
+  background: #000000;
+  position: absolute;
+  top: 186px;
+  right: 187px;
+  display: flex;
+  padding: 12px 29px 12px 16px;
+  box-sizing: border-box;
+}
+.autenticar-usuario-web {
+  background: #D6FFFF;
+  display: flex;
+  padding-left: 23.9px;
+  height: 95vh; 
+  width: 97vw;
+  box-sizing: border-box;
+}
+
+.autenticar-usuario-web .button1 {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}

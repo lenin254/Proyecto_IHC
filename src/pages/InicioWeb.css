@@ -2,7 +2,7 @@
 .inicio-container {
   text-align: center;
   background-color: #e0f7fa;
-  height: 95vh;  /* Cambiado de min-height a height */
+  height: 95vh; 
   width: 97vw;
   display: flex;
   flex-direction: column;
@@ -63,6 +63,7 @@
 }
 
 .footer-link {
-  color: #fff;
+  background-color: #000;
+  color: #ffffff;
   text-decoration: none;
 }

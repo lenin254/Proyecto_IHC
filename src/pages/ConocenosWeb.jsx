@@ -1,12 +1,19 @@
 import './ConocenosWeb.css'
+import { useNavigate } from 'react-router-dom';
 
 export default function ConocenosWeb() {
+  const navigate = useNavigate();
+
+  const handleregresarClick = () => {
+    navigate('/');
+  }
+
   return (
     <div className="conocenos-web">
       <div className="image-10">
       </div>
       <div className="container">
-        <div className="image-19">
+        <div onClick={handleregresarClick} className="image-19">
         </div>
         <div className="educational-virtual-assistant">
         Educational Virtual Assistant
@@ -15,6 +22,7 @@ export default function ConocenosWeb() {
           <span className="bienvenido-ala-seccin-concenos-permteme-presentarte-alos-creadores-detrs-de-esta-plataforma-somos-un-equipo-apasionado-de-desarrolladores-dedicados-aproporcionarte-la-mejor-experiencia-de-aprendizaje-en-lnea-desde-el-diseo-hasta-la-implementacin-hemos-trabajado-arduamente-para-crear-una-plataforma-que-se-adapte-atus-necesidades-educativas-esperamos-que-disfrutes-de-lo-que-hemos-creado-para-ti">
           ¡Bienvenido a la sección &#39;Conócenos&#39;! Permíteme presentarte a los creadores detrás de esta plataforma. Somos un equipo apasionado de desarrolladores dedicados a proporcionarte la mejor experiencia de aprendizaje en línea. Desde el diseño hasta la implementación, hemos trabajado arduamente para crear una plataforma que se adapte a tus necesidades educativas. ¡Esperamos que disfrutes de lo que hemos creado para ti!
           </span>
+          <img src="/assets/images/Image19.png" alt="EVA Logo" className="logo" /> 
         </div>
         <div className="large-grid">
           <div className="card">
@@ -57,8 +65,6 @@ export default function ConocenosWeb() {
         <span className="educational-virtual-assistant-eva-10">
         Educational Virtual Assistant (EVA 1.0)
         </span>
-      </div>
-      <div className="image-12">
       </div>
     </div>
   )

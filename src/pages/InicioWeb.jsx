@@ -1,8 +1,23 @@
 // src/pages/InicioWeb.jsx
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import './InicioWeb.css'; // Asegúrate de crear este archivo CSS también
 
 const InicioWeb = () => {
+  const navigate = useNavigate();
+
+  const handleConocenosClick = () => {
+    navigate('/main/ConocenosWeb');
+  };
+
+  const handleloginClick = () => {
+    navigate('/main/AutenticarUsuarioWeb');
+  }
+
+  const handlecreateAccountClick = () => {
+    navigate('/main/RegistrarUsuarioWeb');
+  }
+
   return (
     <div className="inicio-container">
       <header className="header">
@@ -16,12 +31,13 @@ const InicioWeb = () => {
         </div>
         
         <div className="buttons-container">
-          <button className="button">Iniciar Sesión</button>
-          <button className="button">Crear cuenta</button>
+          <button onClick={handleloginClick} className="button">Iniciar Sesión</button>
+          <button onClick={handlecreateAccountClick} className="button">Crear cuenta</button>
         </div>
       </main>
       <footer className="footer">
-        <button href="/ConocenosWeb" className="footer-link">Conocenos</button>
+        <button onClick={handleConocenosClick} className="button">Conocenos</button>
+        
         <p>Educational Virtual Assistant (EVA 1.0)</p>
       </footer>
     </div>
