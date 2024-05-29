@@ -4,6 +4,8 @@ export const publicRoutes = {
     CONOCENOS: '/ConocenosWeb',
     AUTENTICAR: '/AutenticarUsuarioWeb',
     REGISTRO: '/RegistrarUsuarioWeb',
+
+    
 }
 
 export const privateRoutes = {

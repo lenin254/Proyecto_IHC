@@ -17,6 +17,7 @@ export default function RegistrarUsuarioWeb() {
   const handleRegisterEmailClick = () => {
     // Aquí agregarías la lógica de autenticación
     alert("Usuario registrado");
+    navigate("/main/AutenticarUsuarioWeb"); 
   };
 
 
