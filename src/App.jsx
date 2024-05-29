@@ -1,27 +1,20 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import InicioWeb from './pages/InicioWeb';
-import { sv_url } from './routes/sv.web'; 
-import { publicRoutes } from './routes/routes';
-import ConocenosWeb from './pages/ConocenosWeb';
-import AutenticarUsuarioWeb from './pages/AutenticarUsuarioWeb';
-import RegistrarUsuarioWeb from './pages/RegistrarUsuarioWeb';
-import DashboardWebPro from './pages/DashboardWebPro';
-
-
+import React from 'react';
+import { Outlet, useLocation } from 'react-router-dom';
+import Sidebar from './components/templates/Sidebar';
 
 function App() {
-  return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<InicioWeb />} />
-        <Route path={`${sv_url.DEV}${publicRoutes.CONOCENOS}`} element={<ConocenosWeb />} />
-        <Route path={`${sv_url.DEV}${publicRoutes.AUTENTICAR}`} element={<AutenticarUsuarioWeb />} />
-        <Route path={`${sv_url.DEV}${publicRoutes.REGISTRO}`} element={<RegistrarUsuarioWeb />} />
-        <Route path={`${sv_url.DEV}${publicRoutes.DASHBOARDPRO}`} element={<DashboardWebPro />} />
-        {/* Añade aquí otras rutas para tus otras páginas */}
-      </Routes>
-    </Router>
-  );
+	const location = useLocation();
+
+	const hideSidebar = (pathname) => {
+		return pathname === '/main/AutenticarUsuarioWeb' || pathname === '/main/RegistrarUsuarioWeb' || pathname === '/';
+	};
+
+	return (
+		<main className='flex flex-row'>
+			{!hideSidebar(location.pathname) && <Sidebar />}
+			<Outlet />
+		</main>
+	);
 }
 
 export default App;

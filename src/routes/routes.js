@@ -5,7 +5,6 @@ export const publicRoutes = {
     AUTENTICAR: '/AutenticarUsuarioWeb',
     REGISTRO: '/RegistrarUsuarioWeb',
     DASHBOARDPRO: '/DashboardWebPro',
-
 }
 
 export const privateRoutes = {
