@@ -6,7 +6,7 @@ function App() {
 	const location = useLocation();
 
 	const hideSidebar = (pathname) => {
-		return pathname === '/main/AutenticarUsuarioWeb' || pathname === '/main/RegistrarUsuarioWeb' || pathname === '/';
+		return pathname === '/main/ConocenosWeb' || pathname === '/main/AutenticarUsuarioWeb' || pathname === '/main/RegistrarUsuarioWeb' || pathname === '/' || pathname === '/main/AutenticarUsuarioWeb';
 	};
 
 	return (

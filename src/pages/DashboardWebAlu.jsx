@@ -1,20 +1,7 @@
 import React from 'react';
-import { useNavigate } from "react-router-dom";
-import { FaPlus } from "react-icons/fa";
-import './DashboardWebPro.css';
+import './DashboardWebAlu.css';
 
-
-export default function DashboardWebPro() {
-  const navigate = useNavigate();
-
-  const handleConocenosClick = () => {
-    navigate("/main/ConocenosWeb");
-  };
-
-  const handleCrearCursoClick = () => {
-    navigate("/main/CrearCurso");
-  }
-
+export default function DashboardWebAlu() {
   return (
     <div className="dashboard-container">
       <header className="header">
@@ -26,9 +13,7 @@ export default function DashboardWebPro() {
           <h2>Mis Cursos</h2>
           <div className="course-list">
             <p>Aun no tienes cursos a tu cargo</p>
-            <button onClick={ handleCrearCursoClick} className="bg-blue-500 text-white rounded-full p-2 w-12 h-12 flex items-center justify-center ml-2">
-              +
-            </button>
+            <button className="add-course-button">+</button>
           </div>
         </div>
         <div className="chat">
@@ -45,7 +30,7 @@ export default function DashboardWebPro() {
         </div>
       </main>
       <footer className="footer">
-        
+        <span></span>
         <p>Educational Virtual Assistant (EVA 1.0)</p>
       </footer>
     </div>

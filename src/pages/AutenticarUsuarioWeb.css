@@ -54,6 +54,7 @@
 }
 
 .autenticar-usuario-web .button1 {
+  position: relative;
   background-color: #000;
   color: #fff;
   padding: 10px 20px;
@@ -61,6 +62,7 @@
   border-radius: 10px;
   cursor: pointer;
   font-size: 16px;
+  right: 23rem;
 }
 
 .autenticar-usuario-web .logo {
@@ -68,13 +70,6 @@
   margin: auto;
   width: 100px;
 }
-
-
-
-
-
-
-
 
 .autenticar-usuario-web .message-box {
   background-color: #000;
@@ -92,6 +87,7 @@
   align-items: center;
   position: absolute; /* Posiciona el elemento de forma absoluta respecto a su contenedor más cercano con posición relativa */
   top: 30%; /* Posiciona el elemento en la mitad de la altura del contenedor */
+  color: #000;
 }
 
 .autenticar-usuario-web .input-field {
