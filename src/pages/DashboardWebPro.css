@@ -1,0 +1,77 @@
+/* src/pages/DashboardWebPro.css */
+
+.dashboard-container {
+    text-align: center;
+    background-color: #D6FFFF;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .dashboard-container .header {
+    margin-top: 20px;
+  }
+  
+  .logo {
+    width: 100px;
+  }
+  
+  .title {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: #000;
+    margin-top: 10px;
+  }
+  
+  .main-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .welcome-message {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .buttons-container {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+    background-color: #e0f7fa;
+  }
+  
+  .footer-link {
+    font-family: 'Inter', sans-serif;
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  

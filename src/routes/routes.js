@@ -4,8 +4,8 @@ export const publicRoutes = {
     CONOCENOS: '/ConocenosWeb',
     AUTENTICAR: '/AutenticarUsuarioWeb',
     REGISTRO: '/RegistrarUsuarioWeb',
+    DASHBOARDPRO: '/DashboardWebPro',
 
-    
 }
 
 export const privateRoutes = {
